@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+int a,b,sum,difference,product,division,mod,greaterthan,lessthan,equal,notequal,logicalor,logicaland,logicalnot,bitwiseor,bitwiseand;
+printf("enter a,b");
+scanf("%d%d",&a,&b);
+sum=a+b;
+difference=a-b;
+product=a*b;
+division=a/b;
+mod=a%b;
+greaterthan=(a>b);
+lessthan=(a<b);
+equal=(a==b);
+notequal=(a!=b);
+logicalor=(a==b||a>b);
+logicaland=(a>b&&a<b);
+logicalnot=(a!=b&&a>b);
+bitwiseor=(a=b|a>b);
+bitwiseand=(a=b&b>b);
+printf("sum=%d\ndifference=%d\nproduct=%d\ndivision=%d\nmod=%d\ngreaterthan=%d\nlessthan=%d\nequal=%d\nnotequal=%d\nlogicalor=%d",sum,difference,product,division,mod,greaterthan,lessthan,equal,notequal,logicalor);
+printf("logicaland=%d\nlogicalnot=%d\nbitwiseor=%d\nbitwiseand=%d\n",logicaland,logicalnot,bitwiseor,bitwiseand);
+return;
+}
+
+
